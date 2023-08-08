@@ -30,7 +30,7 @@ function matchFinder(string1, string2) {
 }
 
 const string1 = "John Doe";
-const string2 = "Pen";
+const string2 = "hon";
 const output = matchFinder(string1, string2);
 console.log(output);
 
