@@ -5,8 +5,8 @@ function cubeNumber(number){
     return "Please provide a positive number"
   }
   else{
-    const cube = number * number * number;
-    return cube;
+    const result = number * number * number;
+    return result;
   }
 }
 
@@ -30,10 +30,9 @@ function matchFinder(string1, string2) {
 }
 
 const string1 = "John Doe";
-const string2 = "ohn";
+const string2 = "Pen";
 const output = matchFinder(string1, string2);
 console.log(output);
-
 
 // problem - 3
 
